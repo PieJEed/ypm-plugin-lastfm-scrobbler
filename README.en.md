@@ -1,7 +1,7 @@
 # YesPlayMusic → Last.fm Scrobbler
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![test](https://github.com/PieJEed/ypm-lastfm-scrobbler/actions/workflows/test.yml/badge.svg)](https://github.com/PieJEed/ypm-lastfm-scrobbler/actions/workflows/test.yml)
+[![test](https://github.com/PieJEed/ypm-plugin-lastfm-scrobbler/actions/workflows/test.yml/badge.svg)](https://github.com/PieJEed/ypm-plugin-lastfm-scrobbler/actions/workflows/test.yml)
 
 A YesPlayMusic 3.x plugin that keeps your Last.fm profile up to date: now playing and scrobbles.
 
@@ -20,7 +20,7 @@ Not affiliated with YesPlayMusic or Last.fm.
 In YesPlayMusic: Settings → Plugins → Install plugin, paste:
 
 ```
-github.com/PieJEed/ypm-lastfm-scrobbler
+github.com/PieJEed/ypm-plugin-lastfm-scrobbler
 ```
 
 Or copy the `plugin` folder to `%APPDATA%\YesPlayMusic\plugins\lastfm-scrobbler` on Windows

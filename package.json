@@ -1,16 +1,16 @@
 {
-  "name": "ypm-lastfm-scrobbler",
+  "name": "ypm-plugin-lastfm-scrobbler",
   "version": "1.0.0",
   "description": "YesPlayMusic plugin that scrobbles your plays to Last.fm.",
   "license": "MIT",
   "author": "PieJEed",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PieJEed/ypm-lastfm-scrobbler.git"
+    "url": "git+https://github.com/PieJEed/ypm-plugin-lastfm-scrobbler.git"
   },
-  "homepage": "https://github.com/PieJEed/ypm-lastfm-scrobbler",
+  "homepage": "https://github.com/PieJEed/ypm-plugin-lastfm-scrobbler",
   "bugs": {
-    "url": "https://github.com/PieJEed/ypm-lastfm-scrobbler/issues"
+    "url": "https://github.com/PieJEed/ypm-plugin-lastfm-scrobbler/issues"
   },
   "keywords": [
     "yesplaymusic",
