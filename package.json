@@ -1,0 +1,30 @@
+{
+  "name": "yesplaymusic-lastfm-scrobbler",
+  "version": "1.0.0",
+  "description": "YesPlayMusic plugin that scrobbles your plays to Last.fm.",
+  "license": "MIT",
+  "author": "PieJEed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PieJEed/yesplaymusic-lastfm-scrobbler.git"
+  },
+  "homepage": "https://github.com/PieJEed/yesplaymusic-lastfm-scrobbler",
+  "bugs": {
+    "url": "https://github.com/PieJEed/yesplaymusic-lastfm-scrobbler/issues"
+  },
+  "keywords": [
+    "yesplaymusic",
+    "yesplaymusic-plugin",
+    "lastfm",
+    "scrobbler"
+  ],
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package.ps1"
+  }
+}

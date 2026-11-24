@@ -1,0 +1,17 @@
+{
+  "Last.fm 记录同步": "Last.fm Scrobbler",
+  "把 YesPlayMusic 的播放记录同步到 Last.fm（正在播放 + scrobble）。": "Sync your YesPlayMusic plays to Last.fm (now playing + scrobbles).",
+  "YesPlayMusic MCP 地址": "YesPlayMusic MCP URL",
+  "设置 → MCP 里启用本地服务后的地址，默认 http://127.0.0.1:18888": "Enable the local server in Settings → MCP. Default: http://127.0.0.1:18888",
+  "Last.fm API Key": "Last.fm API Key",
+  "Last.fm Shared Secret": "Last.fm Shared Secret",
+  "MCP Bearer Token": "MCP Bearer Token",
+  "只有开启「要求 Bearer Token」时才需要填；没开就留空。": "Only needed when 'Require Bearer Token' is enabled.",
+  "计入播放的条件": "Scrobble threshold",
+  "Last.fm 官方要求：歌曲超过 30 秒，且听满一半或 4 分钟（取较早达到的）。": "Last.fm requires tracks longer than 30s, played for at least half or 4 minutes, whichever comes first.",
+  "Last.fm 标准（一半 / 4 分钟）": "Last.fm standard (half / 4 min)",
+  "严格（80%）": "Strict (80%)",
+  "几乎听完（95%）": "Almost finished (95%)",
+  "不上报「正在播放」": "Don't send now playing",
+  "只记录听过的歌，不实时显示当前歌曲。": "Only scrobble tracks, never update the now playing status."
+}

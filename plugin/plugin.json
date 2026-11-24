@@ -1,0 +1,53 @@
+{
+  "id": "lastfm-scrobbler",
+  "name": "Last.fm 记录同步",
+  "version": "1.0.0",
+  "description": "把 YesPlayMusic 的播放记录同步到 Last.fm（正在播放 + scrobble）。",
+  "author": "PieJEed",
+  "icon": "icon.png",
+  "minAppVersion": "3.0.0",
+  "main": "index.js",
+  "permissions": {
+    "network": ["127.0.0.1", "{setting:mcpUrl}", "ws.audioscrobbler.com"]
+  },
+  "settings": [
+    {
+      "key": "mcpUrl",
+      "label": "YesPlayMusic MCP 地址",
+      "help": "设置 → MCP 里启用本地服务后的地址，默认 http://127.0.0.1:18888"
+    },
+    {
+      "key": "apiKey",
+      "label": "Last.fm API Key",
+      "link": "https://www.last.fm/api/account/create"
+    },
+    {
+      "key": "apiSecret",
+      "label": "Last.fm Shared Secret",
+      "type": "password"
+    },
+    {
+      "key": "mcpToken",
+      "label": "MCP Bearer Token",
+      "type": "password",
+      "help": "只有开启「要求 Bearer Token」时才需要填；没开就留空。"
+    },
+    {
+      "key": "threshold",
+      "label": "计入播放的条件",
+      "type": "select",
+      "help": "Last.fm 官方要求：歌曲超过 30 秒，且听满一半或 4 分钟（取较早达到的）。",
+      "options": [
+        { "value": "", "label": "Last.fm 标准（一半 / 4 分钟）" },
+        { "value": "0.8", "label": "严格（80%）" },
+        { "value": "0.95", "label": "几乎听完（95%）" }
+      ]
+    },
+    {
+      "key": "muteNowPlaying",
+      "label": "不上报「正在播放」",
+      "type": "boolean",
+      "help": "只记录听过的歌，不实时显示当前歌曲。"
+    }
+  ]
+}
