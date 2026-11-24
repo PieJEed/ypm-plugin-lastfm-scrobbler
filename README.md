@@ -1,7 +1,7 @@
 # YesPlayMusic → Last.fm 记录同步
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![test](https://github.com/PieJEed/yesplaymusic-lastfm-scrobbler/actions/workflows/test.yml/badge.svg)](https://github.com/PieJEed/yesplaymusic-lastfm-scrobbler/actions/workflows/test.yml)
+[![test](https://github.com/PieJEed/ypm-lastfm-scrobbler/actions/workflows/test.yml/badge.svg)](https://github.com/PieJEed/ypm-lastfm-scrobbler/actions/workflows/test.yml)
 ![YesPlayMusic](https://img.shields.io/badge/YesPlayMusic-3.0.0%2B-6E56CF)
 ![Last.fm](https://img.shields.io/badge/Last.fm-scrobble-D51007)
 
@@ -26,7 +26,7 @@
 YesPlayMusic → 设置 → 插件 → 安装插件，粘贴：
 
 ```
-github.com/PieJEed/yesplaymusic-lastfm-scrobbler
+github.com/PieJEed/ypm-lastfm-scrobbler
 ```
 
 应用会优先使用最新 Release 里的 `lastfm-scrobbler-*.zip` 附件。
